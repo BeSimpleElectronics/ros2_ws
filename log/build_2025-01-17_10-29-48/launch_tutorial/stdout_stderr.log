@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.7") found components: Interpreter
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/minkhanttun/ros2_ws/build/launch_tutorial
+-- Install configuration: ""
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/example_substitutions_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/turtlesim_world_1_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/launch_turtlesim_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/turtlesim_world_2_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/turtlesim_rviz_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/turtlesim_world_3_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/example_event_handlers_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/broadcaster_listener_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/fixed_broadcaster_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/mimic_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/example_main_launch.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/setup.py
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/package_run_dependencies/launch_tutorial
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/parent_prefix_path/launch_tutorial
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.sh
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.dsv
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/environment/path.sh
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/environment/path.dsv
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/local_setup.bash
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/local_setup.sh
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/local_setup.zsh
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/local_setup.dsv
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.dsv
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages/launch_tutorial
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig.cmake
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig-version.cmake
+-- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.xml

@@ -1,0 +1,33 @@
+[0.048s] Invoking command in '/home/minkhanttun/ros2_ws/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/launch_tutorial -- -j4 -l4
+[0.261s] Invoked command in '/home/minkhanttun/ros2_ws/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/launch_tutorial -- -j4 -l4
+[0.267s] Invoking command in '/home/minkhanttun/ros2_ws/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/launch_tutorial
+[0.297s] -- Install configuration: ""
+[0.299s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch
+[0.303s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/example_substitutions_launch.py
+[0.303s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/turtlesim_world_1_launch.py
+[0.303s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/launch_turtlesim_launch.py
+[0.303s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/turtlesim_world_2_launch.py
+[0.304s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/turtlesim_rviz_launch.py
+[0.304s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/turtlesim_world_3_launch.py
+[0.304s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/example_event_handlers_launch.py
+[0.304s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/broadcaster_listener_launch.py
+[0.304s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/fixed_broadcaster_launch.py
+[0.305s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/mimic_launch.py
+[0.305s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/example_main_launch.py
+[0.305s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial//launch/setup.py
+[0.305s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/package_run_dependencies/launch_tutorial
+[0.312s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/parent_prefix_path/launch_tutorial
+[0.312s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.sh
+[0.312s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.dsv
+[0.313s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/environment/path.sh
+[0.313s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/environment/path.dsv
+[0.313s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/local_setup.bash
+[0.313s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/local_setup.sh
+[0.314s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/local_setup.zsh
+[0.314s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/local_setup.dsv
+[0.314s] -- Installing: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.dsv
+[0.314s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages/launch_tutorial
+[0.322s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig.cmake
+[0.323s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig-version.cmake
+[0.323s] -- Up-to-date: /home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.xml
+[0.331s] Invoked command in '/home/minkhanttun/ros2_ws/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/launch_tutorial

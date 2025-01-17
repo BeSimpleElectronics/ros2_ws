@@ -1,0 +1,907 @@
+[0.199s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.199s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb939ef90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffba29b710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffba29b710>>, mixin_verb=('build',))
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.264s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/minkhanttun/ros2_ws'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameter_event_handler) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_parameter_event_handler' with type 'ros.ament_cmake' and name 'cpp_parameter_event_handler'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_cpp) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_action_cpp' with type 'ros.ament_cmake' and name 'custom_action_cpp'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_action_interfaces) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_action_interfaces' with type 'ros.ament_cmake' and name 'custom_action_interfaces'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_tutorial' with type 'ros.ament_cmake' and name 'launch_tutorial'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_tf2_cpp' with type 'ros.ament_cmake' and name 'learning_tf2_cpp'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_plugins' with type 'ros.ament_cmake' and name 'polygon_plugins'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/minkhanttun/ros2_ws/install
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.474s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/minkhanttun/ros2_ws/install/turtlesim, /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameter_event_handler' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameter_event_handler' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/cpp_parameter_event_handler', 'symlink_install': False, 'test_result_base': None}
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.478s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/cpp_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/cpp_parameters', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/cpp_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.478s] DEBUG:colcon.colcon_core.verb:Building package 'custom_action_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/custom_action_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/custom_action_interfaces', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/custom_action_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'launch_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/launch_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/launch_tutorial', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/launch_tutorial', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/polygon_base', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.481s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/turtlesim', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/cpp_srvcli', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'custom_action_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/custom_action_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/custom_action_cpp', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/custom_action_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'learning_tf2_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/learning_tf2_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minkhanttun/ros2_ws/build/polygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minkhanttun/ros2_ws/install/polygon_plugins', 'merge_install': False, 'path': '/home/minkhanttun/ros2_ws/src/polygon_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.487s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.488s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.489s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/tutorial_interfaces'
+[0.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.504s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/custom_action_interfaces' with build type 'ament_cmake'
+[0.505s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/custom_action_interfaces'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/polygon_base' with build type 'ament_cmake'
+[0.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/polygon_base'
+[0.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.528s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.528s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/ros_tutorials/turtlesim'
+[0.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/tutorial_interfaces -- -j4 -l4
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/custom_action_interfaces -- -j4 -l4
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/polygon_base -- -j4 -l4
+[0.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/turtlesim -- -j4 -l4
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/polygon_base -- -j4 -l4
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/polygon_base
+[1.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/polygon_base
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base' for CMake module files
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base' for CMake config files
+[1.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/lib'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/bin'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/lib/python3.12/site-packages'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/bin'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.sh'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.bash'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.zsh'
+[1.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base' for CMake module files
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base' for CMake config files
+[1.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[1.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/lib'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/bin'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/lib/python3.12/site-packages'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_base/bin'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.dsv'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.sh'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.bash'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_base/share/polygon_base/package.zsh'
+[1.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.437s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/cpp_parameter_event_handler' with build type 'ament_cmake'
+[1.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/cpp_parameter_event_handler'
+[1.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+[2.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+[2.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler
+[2.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameter_event_handler)
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler' for CMake module files
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler' for CMake config files
+[2.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameter_event_handler', 'cmake_prefix_path')
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/hook/cmake_prefix_path.ps1'
+[2.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_parameter_event_handler
+[2.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/hook/cmake_prefix_path.dsv'
+[2.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/hook/cmake_prefix_path.sh'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/lib'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/bin'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/lib/pkgconfig/cpp_parameter_event_handler.pc'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/lib/python3.12/site-packages'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/bin'
+[2.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.ps1'
+[2.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv'
+[2.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.sh'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.bash'
+[2.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.zsh'
+[2.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/colcon-core/packages/cpp_parameter_event_handler)
+[2.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameter_event_handler)
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler' for CMake module files
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler' for CMake config files
+[2.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameter_event_handler', 'cmake_prefix_path')
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/hook/cmake_prefix_path.ps1'
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/hook/cmake_prefix_path.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/hook/cmake_prefix_path.sh'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/lib'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/bin'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/lib/pkgconfig/cpp_parameter_event_handler.pc'
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/lib/python3.12/site-packages'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/bin'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv'
+[2.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.sh'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.bash'
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.zsh'
+[2.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler/share/colcon-core/packages/cpp_parameter_event_handler)
+[2.301s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/cpp_parameters' with build type 'ament_cmake'
+[2.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/cpp_parameters'
+[2.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_parameters -- -j4 -l4
+[2.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_parameters -- -j4 -l4
+[2.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_parameters
+[2.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters' for CMake module files
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters' for CMake config files
+[2.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[2.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_parameters
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[2.878s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/lib'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/bin'
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/lib/python3.12/site-packages'
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/bin'
+[2.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[2.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[2.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[2.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[2.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[2.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters' for CMake module files
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters' for CMake config files
+[2.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[2.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[2.928s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/lib'
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/bin'
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/lib/python3.12/site-packages'
+[2.933s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_parameters/bin'
+[2.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[2.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[2.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[2.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[2.952s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/launch_tutorial' with build type 'ament_cmake'
+[2.952s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/launch_tutorial'
+[2.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/launch_tutorial -- -j4 -l4
+[3.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/launch_tutorial -- -j4 -l4
+[3.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/launch_tutorial
+[3.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_tutorial)
+[3.272s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial' for CMake module files
+[3.274s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial' for CMake config files
+[3.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'cmake_prefix_path')
+[3.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/launch_tutorial
+[3.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.ps1'
+[3.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.dsv'
+[3.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.sh'
+[3.288s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial/bin'
+[3.288s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial/lib/pkgconfig/launch_tutorial.pc'
+[3.292s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial/bin'
+[3.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.ps1'
+[3.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.dsv'
+[3.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.sh'
+[3.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.bash'
+[3.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.zsh'
+[3.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/launch_tutorial/share/colcon-core/packages/launch_tutorial)
+[3.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_tutorial)
+[3.312s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial' for CMake module files
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial' for CMake config files
+[3.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'cmake_prefix_path')
+[3.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.ps1'
+[3.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.dsv'
+[3.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.sh'
+[3.325s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial/bin'
+[3.326s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial/lib/pkgconfig/launch_tutorial.pc'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages'
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/launch_tutorial/bin'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.ps1'
+[3.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.dsv'
+[3.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.sh'
+[3.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.bash'
+[3.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/launch_tutorial/share/launch_tutorial/package.zsh'
+[3.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/launch_tutorial/share/colcon-core/packages/launch_tutorial)
+[3.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/polygon_plugins' with build type 'ament_cmake'
+[3.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/polygon_plugins'
+[3.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/polygon_plugins -- -j4 -l4
+[3.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/tutorial_interfaces -- -j4 -l4
+[3.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/tutorial_interfaces
+[3.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/custom_action_interfaces -- -j4 -l4
+[3.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/custom_action_interfaces
+[3.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/polygon_plugins -- -j4 -l4
+[3.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/polygon_plugins
+[3.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces' for CMake module files
+[3.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/tutorial_interfaces
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces' for CMake config files
+[3.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[3.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[3.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib'
+[4.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[4.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[4.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[4.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[4.011s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/bin'
+[4.012s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages'
+[4.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[4.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[4.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[4.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/bin'
+[4.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[4.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[4.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[4.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[4.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[4.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces' for CMake module files
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces' for CMake config files
+[4.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[4.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[4.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[4.058s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib'
+[4.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[4.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[4.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/bin'
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[4.066s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages'
+[4.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[4.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[4.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[4.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/bin'
+[4.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[4.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[4.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[4.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[4.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[4.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[4.102s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/cpp_pubsub'
+[4.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins' for CMake module files
+[4.132s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins' for CMake config files
+[4.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/polygon_plugins
+[4.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[4.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[4.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[4.166s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/lib'
+[4.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[4.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[4.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[4.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[4.180s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/bin'
+[4.180s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[4.186s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/lib/python3.12/site-packages'
+[4.190s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/bin'
+[4.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[4.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[4.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.sh'
+[4.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.bash'
+[4.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[4.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[4.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[4.212s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins' for CMake module files
+[4.213s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins' for CMake config files
+[4.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[4.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[4.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[4.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[4.219s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/lib'
+[4.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[4.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[4.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[4.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[4.223s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/bin'
+[4.223s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[4.224s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/lib/python3.12/site-packages'
+[4.224s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/polygon_plugins/bin'
+[4.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[4.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.sh'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.bash'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[4.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[4.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/cpp_srvcli' with build type 'ament_cmake'
+[4.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/cpp_srvcli'
+[4.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/turtlesim -- -j4 -l4
+[4.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/turtlesim
+[4.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_action_interfaces)
+[4.270s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces' for CMake module files
+[4.272s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces' for CMake config files
+[4.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/custom_action_interfaces
+[4.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_interfaces', 'cmake_prefix_path')
+[4.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/cmake_prefix_path.ps1'
+[4.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/cmake_prefix_path.dsv'
+[4.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/cmake_prefix_path.sh'
+[4.280s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib'
+[4.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_interfaces', 'ld_library_path_lib')
+[4.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/ld_library_path_lib.ps1'
+[4.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/ld_library_path_lib.dsv'
+[4.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/ld_library_path_lib.sh'
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/bin'
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/pkgconfig/custom_action_interfaces.pc'
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages'
+[4.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_interfaces', 'pythonpath')
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/pythonpath.ps1'
+[4.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/pythonpath.dsv'
+[4.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/pythonpath.sh'
+[4.292s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/bin'
+[4.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.ps1'
+[4.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.dsv'
+[4.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.sh'
+[4.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.bash'
+[4.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.zsh'
+[4.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/colcon-core/packages/custom_action_interfaces)
+[4.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_action_interfaces)
+[4.305s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces' for CMake module files
+[4.308s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces' for CMake config files
+[4.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_interfaces', 'cmake_prefix_path')
+[4.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/cmake_prefix_path.ps1'
+[4.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/cmake_prefix_path.dsv'
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/cmake_prefix_path.sh'
+[4.317s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib'
+[4.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_interfaces', 'ld_library_path_lib')
+[4.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/ld_library_path_lib.ps1'
+[4.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/ld_library_path_lib.dsv'
+[4.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/ld_library_path_lib.sh'
+[4.324s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/bin'
+[4.324s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/pkgconfig/custom_action_interfaces.pc'
+[4.325s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages'
+[4.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_interfaces', 'pythonpath')
+[4.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/pythonpath.ps1'
+[4.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/pythonpath.dsv'
+[4.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/hook/pythonpath.sh'
+[4.331s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/bin'
+[4.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.ps1'
+[4.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.dsv'
+[4.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.sh'
+[4.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.bash'
+[4.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.zsh'
+[4.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/custom_action_interfaces/share/colcon-core/packages/custom_action_interfaces)
+[4.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[4.360s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/custom_action_cpp' with build type 'ament_cmake'
+[4.361s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/custom_action_cpp'
+[4.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[4.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/custom_action_cpp': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/custom_action_cpp -- -j4 -l4
+[4.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[4.801s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim' for CMake module files
+[4.809s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim' for CMake config files
+[4.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[4.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[4.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/turtlesim
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[4.819s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/lib'
+[4.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[4.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/bin'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages'
+[4.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[4.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[4.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[4.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[4.835s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/bin'
+[4.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[4.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[4.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[4.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[4.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[4.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[4.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[4.849s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim' for CMake module files
+[4.852s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim' for CMake config files
+[4.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[4.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[4.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[4.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[4.857s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/lib'
+[4.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[4.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[4.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[4.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[4.864s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/bin'
+[4.864s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages'
+[4.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[4.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[4.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[4.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[4.869s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/turtlesim/bin'
+[4.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[4.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[4.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[4.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[4.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[4.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[4.883s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minkhanttun/ros2_ws/src/learning_tf2_cpp' with build type 'ament_cmake'
+[4.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minkhanttun/ros2_ws/src/learning_tf2_cpp'
+[4.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[4.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_pubsub
+[4.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[4.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_srvcli
+[4.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/minkhanttun/ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/minkhanttun/ros2_ws/install/learning_tf2_cpp
+[4.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[4.978s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub' for CMake module files
+[4.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_pubsub
+[4.997s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub' for CMake config files
+[4.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[5.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[5.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[5.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[5.013s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/lib'
+[5.013s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/bin'
+[5.013s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[5.013s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/lib/python3.12/site-packages'
+[5.014s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/bin'
+[5.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[5.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[5.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[5.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[5.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[5.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[5.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[5.030s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub' for CMake module files
+[5.031s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub' for CMake config files
+[5.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[5.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[5.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[5.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[5.035s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/lib'
+[5.035s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/bin'
+[5.035s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[5.036s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/lib/python3.12/site-packages'
+[5.036s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_pubsub/bin'
+[5.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[5.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[5.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[5.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/custom_action_cpp' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/custom_action_cpp -- -j4 -l4
+[5.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli' for CMake module files
+[5.047s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli' for CMake config files
+[5.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[5.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[5.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/custom_action_cpp': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/custom_action_cpp
+[5.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_srvcli
+[5.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[5.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[5.055s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/lib'
+[5.055s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/bin'
+[5.055s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[5.056s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/lib/python3.12/site-packages'
+[5.057s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/bin'
+[5.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[5.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[5.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[5.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[5.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[5.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[5.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[5.076s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli' for CMake module files
+[5.077s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli' for CMake config files
+[5.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[5.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[5.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[5.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/lib'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/bin'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/lib/python3.12/site-packages'
+[5.081s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/cpp_srvcli/bin'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[5.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[5.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[5.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[5.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_action_cpp)
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp' for CMake module files
+[5.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/custom_action_cpp' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/custom_action_cpp
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp' for CMake config files
+[5.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_cpp', 'cmake_prefix_path')
+[5.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/cmake_prefix_path.ps1'
+[5.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/cmake_prefix_path.dsv'
+[5.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/cmake_prefix_path.sh'
+[5.095s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib'
+[5.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_cpp', 'ld_library_path_lib')
+[5.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/ld_library_path_lib.ps1'
+[5.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/ld_library_path_lib.dsv'
+[5.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/ld_library_path_lib.sh'
+[5.102s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/bin'
+[5.102s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib/pkgconfig/custom_action_cpp.pc'
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib/python3.12/site-packages'
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/bin'
+[5.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.ps1'
+[5.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.dsv'
+[5.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.sh'
+[5.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.bash'
+[5.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.zsh'
+[5.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/colcon-core/packages/custom_action_cpp)
+[5.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_action_cpp)
+[5.109s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp' for CMake module files
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp' for CMake config files
+[5.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_cpp', 'cmake_prefix_path')
+[5.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/cmake_prefix_path.ps1'
+[5.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/cmake_prefix_path.dsv'
+[5.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/cmake_prefix_path.sh'
+[5.115s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib'
+[5.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_action_cpp', 'ld_library_path_lib')
+[5.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/ld_library_path_lib.ps1'
+[5.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/ld_library_path_lib.dsv'
+[5.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/hook/ld_library_path_lib.sh'
+[5.120s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/bin'
+[5.120s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib/pkgconfig/custom_action_cpp.pc'
+[5.121s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib/python3.12/site-packages'
+[5.121s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/custom_action_cpp/bin'
+[5.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.ps1'
+[5.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.dsv'
+[5.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.sh'
+[5.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.bash'
+[5.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/custom_action_cpp/package.zsh'
+[5.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/custom_action_cpp/share/colcon-core/packages/custom_action_cpp)
+[6.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/minkhanttun/ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/minkhanttun/ros2_ws/install/learning_tf2_cpp
+[6.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+[6.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+[6.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2_cpp)
+[6.950s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp' for CMake module files
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp' for CMake config files
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/bin'
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/lib/pkgconfig/learning_tf2_cpp.pc'
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/lib/python3.12/site-packages'
+[6.952s] Level 1:colcon.colcon_core.environment:checking '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/bin'
+[6.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.ps1'
+[6.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv'
+[6.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.sh'
+[6.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.bash'
+[6.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.zsh'
+[6.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/colcon-core/packages/learning_tf2_cpp)
+[6.966s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.966s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.966s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[6.966s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.980s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.980s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.980s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.022s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minkhanttun/ros2_ws/install/local_setup.ps1'
+[7.025s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/minkhanttun/ros2_ws/install/_local_setup_util_ps1.py'
+[7.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minkhanttun/ros2_ws/install/setup.ps1'
+[7.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minkhanttun/ros2_ws/install/local_setup.sh'
+[7.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/minkhanttun/ros2_ws/install/_local_setup_util_sh.py'
+[7.032s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minkhanttun/ros2_ws/install/setup.sh'
+[7.035s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minkhanttun/ros2_ws/install/local_setup.bash'
+[7.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minkhanttun/ros2_ws/install/setup.bash'
+[7.038s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minkhanttun/ros2_ws/install/local_setup.zsh'
+[7.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minkhanttun/ros2_ws/install/setup.zsh'

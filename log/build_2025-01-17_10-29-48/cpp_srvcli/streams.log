@@ -1,0 +1,60 @@
+[0.091s] Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/minkhanttun/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/minkhanttun/ros2_ws/install/cpp_srvcli
+[0.607s] -- The C compiler identification is GNU 14.2.0
+[0.968s] -- The CXX compiler identification is GNU 14.2.0
+[1.077s] -- Detecting C compiler ABI info
+[1.678s] -- Detecting C compiler ABI info - done
+[1.757s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.757s] -- Detecting C compile features
+[1.760s] -- Detecting C compile features - done
+[1.780s] -- Detecting CXX compiler ABI info
+[2.374s] -- Detecting CXX compiler ABI info - done
+[2.445s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.447s] -- Detecting CXX compile features
+[2.448s] -- Detecting CXX compile features - done
+[2.463s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.240s] -- Found Python3: /usr/bin/python3 (found version "3.12.7") found components: Interpreter
+[3.900s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.105s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.165s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.648s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.650s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.020s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.3.1")
+[5.172s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13")
+[5.278s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.566s] -- Found tutorial_interfaces: 0.0.0 (/home/minkhanttun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[6.177s] -- Configuring done (6.0s)
+[6.261s] -- Generating done (0.1s)
+[6.286s] -- Build files have been written to: /home/minkhanttun/ros2_ws/build/cpp_srvcli
+[6.352s] Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/minkhanttun/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/minkhanttun/ros2_ws/install/cpp_srvcli
+[6.353s] Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[6.718s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[23.657s] [ 50%] [32m[1mLinking CXX executable server[0m
+[24.539s] [ 50%] Built target server
+[24.595s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[40.236s] [100%] [32m[1mLinking CXX executable client[0m
+[41.372s] [100%] Built target client
+[41.413s] Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/minkhanttun/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[41.415s] Invoking command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_srvcli
+[41.444s] -- Install configuration: ""
+[41.444s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[41.449s] -- Set non-toolchain portion of runtime path of "/home/minkhanttun/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[41.449s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[41.451s] -- Set non-toolchain portion of runtime path of "/home/minkhanttun/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[41.451s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[41.453s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[41.453s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[41.455s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[41.455s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[41.455s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[41.460s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[41.460s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[41.461s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[41.461s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[41.461s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[41.461s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[41.461s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[41.461s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[41.462s] -- Installing: /home/minkhanttun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[41.465s] Invoked command in '/home/minkhanttun/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/minkhanttun/ros2_ws/build/cpp_srvcli

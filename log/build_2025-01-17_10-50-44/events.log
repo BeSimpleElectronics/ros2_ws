@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000715] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.001316] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001607] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001975] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002062] (-) JobUnselected: {'identifier': 'custom_action_cpp'}
+[0.002096] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.002125] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.002181] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.002236] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.002264] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002292] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002328] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict({'turtlesim': '/home/minkhanttun/ros2_ws/install/turtlesim'})}
+[0.002402] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.026077] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.028448] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.031746] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp', '--', '-j4', '-l4'], 'cwd': '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'minkhanttun', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/minkhanttun', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2065', 'SYSTEMD_EXEC_PID': '2792', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4894', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/minkhanttun/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'minkhanttun', 'JOURNAL_STREAM': '9:22636', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'minkhanttun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/minkhanttun/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/raspberrypi5:@/tmp/.ICE-unix/2760,unix/raspberrypi5:/tmp/.ICE-unix/2760', 'INVOCATION_ID': 'ad8c95fb73a0482c904978394829dc93', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d6e63c32f2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'EDITOR': 'vim', 'CMAKE_PREFIX_PATH': '/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099441] (-) TimerEvent: {}
+[0.105057] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199599] (-) TimerEvent: {}
+[0.300146] (-) TimerEvent: {}
+[0.400597] (-) TimerEvent: {}
+[0.501021] (-) TimerEvent: {}
+[0.601444] (-) TimerEvent: {}
+[0.653186] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.701583] (-) TimerEvent: {}
+[0.710587] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.735015] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.762271] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.794154] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801726] (-) TimerEvent: {}
+[0.887143] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.901866] (-) TimerEvent: {}
+[1.002316] (-) TimerEvent: {}
+[1.002682] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.006369] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.102450] (-) TimerEvent: {}
+[1.175941] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.202595] (-) TimerEvent: {}
+[1.300732] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.303797] (-) TimerEvent: {}
+[1.308565] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.403911] (-) TimerEvent: {}
+[1.500367] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/home/minkhanttun/ros2_ws/install/turtlesim/share/turtlesim/cmake)\n'}
+[1.503983] (-) TimerEvent: {}
+[1.534440] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.604104] (-) TimerEvent: {}
+[1.704468] (-) TimerEvent: {}
+[1.739289] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.739800] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.739939] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.740270] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.740451] (learning_tf2_cpp) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.741014] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.741638] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.742968] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.743122] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.743600] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.744922] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[1.775943] (learning_tf2_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.781353] (learning_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/minkhanttun/ros2_ws/build/learning_tf2_cpp\n'}
+[1.804565] (-) TimerEvent: {}
+[1.864351] (learning_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o\x1b[0m\n'}
+[1.904682] (-) TimerEvent: {}
+[2.005069] (-) TimerEvent: {}
+[2.105528] (-) TimerEvent: {}
+[2.205983] (-) TimerEvent: {}
+[2.306413] (-) TimerEvent: {}
+[2.406906] (-) TimerEvent: {}
+[2.507330] (-) TimerEvent: {}
+[2.607742] (-) TimerEvent: {}
+[2.708146] (-) TimerEvent: {}
+[2.808570] (-) TimerEvent: {}
+[2.908988] (-) TimerEvent: {}
+[3.009374] (-) TimerEvent: {}
+[3.109803] (-) TimerEvent: {}
+[3.210249] (-) TimerEvent: {}
+[3.310649] (-) TimerEvent: {}
+[3.411031] (-) TimerEvent: {}
+[3.511406] (-) TimerEvent: {}
+[3.611800] (-) TimerEvent: {}
+[3.712197] (-) TimerEvent: {}
+[3.812590] (-) TimerEvent: {}
+[3.912962] (-) TimerEvent: {}
+[4.013333] (-) TimerEvent: {}
+[4.113830] (-) TimerEvent: {}
+[4.214353] (-) TimerEvent: {}
+[4.314762] (-) TimerEvent: {}
+[4.415174] (-) TimerEvent: {}
+[4.515563] (-) TimerEvent: {}
+[4.615973] (-) TimerEvent: {}
+[4.716443] (-) TimerEvent: {}
+[4.816887] (-) TimerEvent: {}
+[4.917281] (-) TimerEvent: {}
+[5.017707] (-) TimerEvent: {}
+[5.118142] (-) TimerEvent: {}
+[5.218592] (-) TimerEvent: {}
+[5.318999] (-) TimerEvent: {}
+[5.419394] (-) TimerEvent: {}
+[5.519802] (-) TimerEvent: {}
+[5.620169] (-) TimerEvent: {}
+[5.720563] (-) TimerEvent: {}
+[5.820941] (-) TimerEvent: {}
+[5.921323] (-) TimerEvent: {}
+[6.021723] (-) TimerEvent: {}
+[6.122120] (-) TimerEvent: {}
+[6.222515] (-) TimerEvent: {}
+[6.322900] (-) TimerEvent: {}
+[6.424578] (-) TimerEvent: {}
+[6.525033] (-) TimerEvent: {}
+[6.625530] (-) TimerEvent: {}
+[6.726375] (-) TimerEvent: {}
+[6.826785] (-) TimerEvent: {}
+[6.927168] (-) TimerEvent: {}
+[7.027565] (-) TimerEvent: {}
+[7.127946] (-) TimerEvent: {}
+[7.228327] (-) TimerEvent: {}
+[7.328729] (-) TimerEvent: {}
+[7.429105] (-) TimerEvent: {}
+[7.529483] (-) TimerEvent: {}
+[7.629894] (-) TimerEvent: {}
+[7.730308] (-) TimerEvent: {}
+[7.830700] (-) TimerEvent: {}
+[7.931080] (-) TimerEvent: {}
+[8.031463] (-) TimerEvent: {}
+[8.131853] (-) TimerEvent: {}
+[8.232248] (-) TimerEvent: {}
+[8.332629] (-) TimerEvent: {}
+[8.433004] (-) TimerEvent: {}
+[8.533369] (-) TimerEvent: {}
+[8.633753] (-) TimerEvent: {}
+[8.734116] (-) TimerEvent: {}
+[8.834546] (-) TimerEvent: {}
+[8.934921] (-) TimerEvent: {}
+[9.035296] (-) TimerEvent: {}
+[9.135735] (-) TimerEvent: {}
+[9.236121] (-) TimerEvent: {}
+[9.336518] (-) TimerEvent: {}
+[9.436895] (-) TimerEvent: {}
+[9.537264] (-) TimerEvent: {}
+[9.637924] (-) TimerEvent: {}
+[9.738320] (-) TimerEvent: {}
+[9.838851] (-) TimerEvent: {}
+[9.939230] (-) TimerEvent: {}
+[10.039638] (-) TimerEvent: {}
+[10.140018] (-) TimerEvent: {}
+[10.240386] (-) TimerEvent: {}
+[10.340818] (-) TimerEvent: {}
+[10.441302] (-) TimerEvent: {}
+[10.541700] (-) TimerEvent: {}
+[10.642056] (-) TimerEvent: {}
+[10.742425] (-) TimerEvent: {}
+[10.842814] (-) TimerEvent: {}
+[10.943175] (-) TimerEvent: {}
+[11.043559] (-) TimerEvent: {}
+[11.143922] (-) TimerEvent: {}
+[11.244287] (-) TimerEvent: {}
+[11.344671] (-) TimerEvent: {}
+[11.445029] (-) TimerEvent: {}
+[11.545391] (-) TimerEvent: {}
+[11.645795] (-) TimerEvent: {}
+[11.746153] (-) TimerEvent: {}
+[11.846529] (-) TimerEvent: {}
+[11.946881] (-) TimerEvent: {}
+[12.047239] (-) TimerEvent: {}
+[12.147622] (-) TimerEvent: {}
+[12.247980] (-) TimerEvent: {}
+[12.348340] (-) TimerEvent: {}
+[12.448725] (-) TimerEvent: {}
+[12.549085] (-) TimerEvent: {}
+[12.649463] (-) TimerEvent: {}
+[12.749953] (-) TimerEvent: {}
+[12.850372] (-) TimerEvent: {}
+[12.950808] (-) TimerEvent: {}
+[13.051313] (-) TimerEvent: {}
+[13.151927] (-) TimerEvent: {}
+[13.252361] (-) TimerEvent: {}
+[13.271076] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_listener\x1b[0m\n'}
+[13.352577] (-) TimerEvent: {}
+[13.453266] (-) TimerEvent: {}
+[13.554927] (-) TimerEvent: {}
+[13.655840] (-) TimerEvent: {}
+[13.756427] (-) TimerEvent: {}
+[13.856937] (-) TimerEvent: {}
+[13.957404] (-) TimerEvent: {}
+[14.063579] (-) TimerEvent: {}
+[14.115009] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] Built target turtle_tf2_listener\n'}
+[14.143541] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[14.144446] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'install'}
+[14.159955] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp'], 'cwd': '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'minkhanttun', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/minkhanttun/ros2_ws/install/turtlesim/lib:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib:/home/minkhanttun/ros2_ws/install/polygon_plugins/lib:/home/minkhanttun/ros2_ws/install/custom_action_cpp/lib:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/minkhanttun', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2065', 'SYSTEMD_EXEC_PID': '2792', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4894', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/minkhanttun/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'minkhanttun', 'JOURNAL_STREAM': '9:22636', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'minkhanttun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/minkhanttun/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/raspberrypi5:@/tmp/.ICE-unix/2760,unix/raspberrypi5:/tmp/.ICE-unix/2760', 'INVOCATION_ID': 'ad8c95fb73a0482c904978394829dc93', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d6e63c32f2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/minkhanttun/ros2_ws/build/learning_tf2_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/minkhanttun/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/minkhanttun/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'EDITOR': 'vim', 'CMAKE_PREFIX_PATH': '/home/minkhanttun/ros2_ws/install/turtlesim:/home/minkhanttun/ros2_ws/install/cpp_srvcli:/home/minkhanttun/ros2_ws/install/cpp_pubsub:/home/minkhanttun/ros2_ws/install/tutorial_interfaces:/home/minkhanttun/ros2_ws/install/polygon_plugins:/home/minkhanttun/ros2_ws/install/polygon_base:/home/minkhanttun/ros2_ws/install/launch_tutorial:/home/minkhanttun/ros2_ws/install/custom_action_cpp:/home/minkhanttun/ros2_ws/install/custom_action_interfaces:/home/minkhanttun/ros2_ws/install/cpp_parameters:/home/minkhanttun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.163645] (-) TimerEvent: {}
+[14.176945] (learning_tf2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.178221] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener\n'}
+[14.183297] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/minkhanttun/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""\n'}
+[14.183745] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch\n'}
+[14.183953] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo_launch.py\n'}
+[14.184111] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp\n'}
+[14.184281] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp\n'}
+[14.184431] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh\n'}
+[14.184591] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv\n'}
+[14.184713] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh\n'}
+[14.184807] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv\n'}
+[14.184901] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash\n'}
+[14.185005] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh\n'}
+[14.185120] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh\n'}
+[14.185280] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv\n'}
+[14.185372] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv\n'}
+[14.185461] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp\n'}
+[14.185568] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake\n'}
+[14.185657] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake\n'}
+[14.185768] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/minkhanttun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml\n'}
+[14.187751] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[14.211010] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 0}
+[14.212039] (-) EventReactorShutdown: {}

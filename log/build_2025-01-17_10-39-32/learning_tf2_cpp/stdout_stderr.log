@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+/usr/bin/ld: CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<turtlesim::msg::Pose_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<turtlesim::msg::Pose_<std::allocator<void> > >()':
+turtle_tf2_broadcaster.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN9turtlesim3msg5Pose_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN9turtlesim3msg5Pose_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0xc): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<turtlesim::msg::Pose_<std::allocator<void> > >()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/turtle_tf2_broadcaster.dir/build.make:208: turtle_tf2_broadcaster] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_tf2_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
